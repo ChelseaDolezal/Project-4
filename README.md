@@ -1,4 +1,5 @@
 # Project-4
+HOW TO RUN THE CODE:
 
 RFM Clustering Overview
 
