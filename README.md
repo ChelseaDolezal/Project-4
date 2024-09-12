@@ -94,6 +94,8 @@ We also tried the Birch Means method but it didn't give us anything different so
 ### Additional Analysis: Item Level Detail
 *At this point in our analysis we decided to circle back to the original dataset and further complete further investigation at an item detail level.  Using Spark sql the item data was queried to determine the top items purchsed in each cluster.  The items in each cluster were compared to see what overlapping items were purchased.  This provided us with further insight into how to move forward creating our predictions of future customer behavior.*
 
+You can find the steps for the additional analysis in file Project4_Spark_Data_Analysis.ipynb. Please note that Parts 1 and 2 in Project4_CustomerSegmentation.ipynb must be run prior to running the additional item level detail analysis.
+
 # Part 3: Neural Network for Customer Lifetime Value (CLV) Prediction
 
 ## **What is CLV:** CLV is the total revenue a business can expect from a single customer over their entire relationship. Understanding CLV is crucial for long-term business growth and customer relationship management.
